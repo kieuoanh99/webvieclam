@@ -21,8 +21,11 @@
         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
     </div>
      <hr  width="30%" align="left" />
+     <div class="row">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
      <hr width="2" size="400" align="center">
-
+    
       <div class="col-25">
         <label for="fname"></label>
       </div>
