@@ -149,23 +149,43 @@
 
     <div class="row">
         <label for="Mota">Mô tả công việc:</label><br>
-        <input type="text" id="Mota" name="Mota" placeholder="Gợi ý:
-                                                                - Tìm khách hàng cho công ty, chăm sóc khách hàng cũ cho công ty.
-                                                                - Tìm kiếm khai thác khách hàng tiềm năng.
-                                                                - Đàm phán, thương lượng và chốt hợp đồng với khách hàng.
-                                                                - Liên hệ với khách hàng để đặt đơn hàng, giao hàng.
-                                                                - Theo dỗi tình hình thanh toán của khách hàng.
-                                                                - Chi tiết trao đổi tại buổi phỏng vấn.">
+        <div class="sectionContent">
+                    <textarea id="autoresizing" cols="75" rows="15" placeholder="Gợi ý:
+                                                                            - Tìm khách hàng cho công ty, chăm sóc khách hàng cũ cho công ty.
+                                                                            - Tìm kiếm khai thác khách hàng tiềm năng.
+                                                                            - Đàm phán, thương lượng và chốt hợp đồng với khách hàng.
+                                                                            - Liên hệ với khách hàng để đặt đơn hàng, giao hàng.
+                                                                            - Theo dỗi tình hình thanh toán của khách hàng.
+                                                                            - Chi tiết trao đổi tại buổi phỏng vấn."> </textarea> 
+					 <script type="text/javascript"> 
+						textarea = document.querySelector("#autoresizing"); 
+						textarea.addEventListener('input', autoResize, false); 
+						function autoResize() { 
+							this.style.height = 'auto'; 
+							this.style.height = this.scrollHeight + 'px'; 
+						} 
+					</script>
+				</div>
     </div>
 
     <div class="row">
         <label for="Quyenloi">Quyền lợi được hưởng:</label><br>
-        <input type="text" id="Quyenloi" name="Quyenloi" placeholder="Gợi ý:
-                                                                - 7-10 triệu/tháng.
-                                                                - Làm việc từ thứ Hai đến thứ Bảy.
-                                                                - Làm việc trong môi trường trẻ, trung năng động, được đào tạo kỹ năng.
-                                                                - Tham gia du lịch, team building cùng công ty.
-                                                                - Được hưởng các chế độ theo quy định của luật lao động.">
+        <div class="sectionContent">
+                    <textarea id="autoresizing" cols="75" rows="15" placeholder="Gợi ý:
+                                                                            - 7-10 triệu/tháng.
+                                                                            - Làm việc từ thứ Hai đến thứ Bảy.
+                                                                            - Làm việc trong môi trường trẻ, trung năng động, được đào tạo kỹ năng.
+                                                                            - Tham gia du lịch, team building cùng công ty.
+                                                                            - Được hưởng các chế độ theo quy định của luật lao động."> </textarea> 
+					 <script type="text/javascript"> 
+						textarea = document.querySelector("#autoresizing"); 
+						textarea.addEventListener('input', autoResize, false); 
+						function autoResize() { 
+							this.style.height = 'auto'; 
+							this.style.height = this.scrollHeight + 'px'; 
+						} 
+					</script>
+				</div>
     </div>
 
      <!-- <hr  width="100%" align="center" /> -->
@@ -233,23 +253,43 @@
 
     <div class="row">
         <label for="Yeucau">Yêu cầu công việc:</label><br>
-        <input type="text" id="Yeucau" name="Yeucau" placeholder="Gợi ý:
-                                                                - Có kinh nghiệm là lợi thế.
-                                                                - Nhanh nhẹn, trung thực, giao tiếp tốt.
-                                                                - Có tinh thần cầu tiến, chịu được áp lực và có trách nhiệm với công việc.
-                                                                - Độ tuổi từ 18 - 35.
-                                                                - Biết các kỹ năng cơ bản: Word, Excel...">
+        <div class="sectionContent">
+                    <textarea id="autoresizing" cols="75" rows="15" placeholder="Gợi ý:
+                                                                                - Có kinh nghiệm là lợi thế.
+                                                                                - Nhanh nhẹn, trung thực, giao tiếp tốt.
+                                                                                - Có tinh thần cầu tiến, chịu được áp lực và có trách nhiệm với công việc.
+                                                                                - Độ tuổi từ 18 - 35.
+                                                                                - Biết các kỹ năng cơ bản: Word, Excel...."> </textarea> 
+					 <script type="text/javascript"> 
+						textarea = document.querySelector("#autoresizing"); 
+						textarea.addEventListener('input', autoResize, false); 
+						function autoResize() { 
+							this.style.height = 'auto'; 
+							this.style.height = this.scrollHeight + 'px'; 
+						} 
+					</script>
+				</div>
     </div>
 
     <div class="row">
         <label for="YeucauHS">Yêu cầu hồ sơ:</label><br>
-        <input type="text" id="YeucauHS" name="YeucauHS" placeholder="Gợi ý:
-                                                                - Đơn xin việc hoặc CV xin việc.
-                                                                - Sơ yếu lý lịch (có dán ảnh).
-                                                                - Hộ khẩu.
-                                                                - Chứng minh nhân dân.
-                                                                - Giấy khám sức khỏe.
-                                                                - Các bằng cấp liên quan.">
+        <div class="sectionContent">
+                    <textarea id="autoresizing" cols="75" rows="15" placeholder="Gợi ý:
+                                                                                - Đơn xin việc hoặc CV xin việc.
+                                                                                - Sơ yếu lý lịch (có dán ảnh).
+                                                                                - Hộ khẩu.
+                                                                                - Chứng minh nhân dân.
+                                                                                - Giấy khám sức khỏe.
+                                                                                - Các bằng cấp liên quan.."> </textarea> 
+					 <script type="text/javascript"> 
+						textarea = document.querySelector("#autoresizing"); 
+						textarea.addEventListener('input', autoResize, false); 
+						function autoResize() { 
+							this.style.height = 'auto'; 
+							this.style.height = this.scrollHeight + 'px'; 
+						} 
+					</script>
+				</div>
     </div>
      
       <div class="col-25">
