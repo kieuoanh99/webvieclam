@@ -17,3 +17,4 @@ Route::get('/', function () {
     return view('trangchu');
 });
 Route::get('/dangnhap', 'DangnhapController@index');
+Route::get('/dangnhap', 'DangnhapController@postLogin');
