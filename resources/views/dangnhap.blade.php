@@ -41,12 +41,12 @@
             </div>
         </div>
     </div>
-    <!-- Preloader Start-->
+    <!-- Preloader Start -->
 
 
-    <main class="login-body" data-vide-bg="admin/img/login-bg.mp4">
+    <main class="login-body" data-video-bg="admin/img/login-bg.mp4">
         <!-- Login Admin -->
-        <form class="form-default" action="{{ url('/dangnhap') }}" method="POST">
+        <form class="form-default" action="{{ url('/dangnhap') }}" method="post">
 
             <div class="login-form">
                 <!-- logo-login -->
@@ -67,7 +67,7 @@
                 </div>
 
                 <!-- Forget Password -->
-                <a href="#" class="forget">Forget Password</a>
+                <a href="#" class="forget">Forget Password?</a>
                 <!-- Forget Password -->
                 <a href="" class="registration">Registration</a>
             </div>
@@ -85,7 +85,7 @@
     <script src="admin/js/jquery.slicknav.min.js"></script>
 
     <!-- Video bg -->
-    <script src="admin/js/jquery.vide.js"></script>
+    <script src="admin/js/jquery.video.js"></script>
 
     <!-- Jquery Slick , Owl-Carousel Plugins -->
     <script src="admin/js/owl.carousel.min.js"></script>

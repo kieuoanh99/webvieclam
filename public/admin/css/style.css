@@ -5389,7 +5389,7 @@
         /* line 38, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
         
         .footer-area .footer-tittle h4 {
-            color: #1D2547;
+            color: red;
             font-size: 22px;
             margin-bottom: 29px;
             font-weight: 600;
@@ -5398,6 +5398,7 @@
         
         .footer-area .footer-tittle ul li {
             margin-bottom: 15px;
+            color: red;
         }
         /* line 47, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_footer.scss */
         
@@ -10060,3 +10061,5 @@
             overflow: hidden;
             resize: none;
         }
+        
+        ed
