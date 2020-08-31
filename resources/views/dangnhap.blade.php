@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -9,23 +10,26 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="admin/img/favicon.ico">
 
-	<!-- CSS here -->
-	<link rel="stylesheet" href="admin/css/bootstrap.min.css">
-	<link rel="stylesheet" href="admin/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="admin/css/slicknav.css">
+    <!-- CSS here -->
+    <link rel="stylesheet" href="admin/css/bootstrap.min.css">
+    <link rel="stylesheet" href="admin/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="admin/css/slicknav.css">
     <link rel="stylesheet" href="admin/css/flaticon.css">
     <link rel="stylesheet" href="admin/css/progressbar_barfiller.css">
     <link rel="stylesheet" href="admin/css/gijgo.css">
     <link rel="stylesheet" href="admin/css/animate.min.css">
     <link rel="stylesheet" href="admin/css/animated-headline.css">
-	<link rel="stylesheet" href="admin/css/magnific-popup.css">
-	<link rel="stylesheet" href="admin/css/fontawesome-all.min.css">
-	<link rel="stylesheet" href="admin/css/themify-icons.css">
-	<link rel="stylesheet" href="admin/css/slick.css">
-	<link rel="stylesheet" href="admin/css/nice-select.css">
-	<link rel="stylesheet" href="admin/css/style.css">
+    <link rel="stylesheet" href="admin/css/magnific-popup.css">
+    <link rel="stylesheet" href="admin/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="admin/css/themify-icons.css">
+    <link rel="stylesheet" href="admin/css/slick.css">
+    <link rel="stylesheet" href="admin/css/nice-select.css">
+    <link rel="stylesheet" href="admin/css/style.css">
 </head>
+
 <body>
+
+
     <!-- ? Preloader Start -->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
@@ -40,36 +44,36 @@
     <!-- Preloader Start-->
 
 
-<main class="login-body" data-vide-bg="admin/img/login-bg.mp4">
-    <!-- Login Admin -->
-    <form class="form-default" action="login-bg.mp4" method="POST">
-        
-        <div class="login-form">
-            <!-- logo-login -->
-            <div class="logo-login">
-                <a href="index.html"><img src="admin/img/logo/loder.png" alt=""></a>
+    <main class="login-body" data-vide-bg="admin/img/login-bg.mp4">
+        <!-- Login Admin -->
+        <form class="form-default" action="{{ url('/dangnhap') }}" method="POST">
+
+            <div class="login-form">
+                <!-- logo-login -->
+                <div class="logo-login">
+                    <a href="index.html"><img src="admin/img/logo/loder.png" alt=""></a>
+                </div>
+                <h2>Đăng nhập</h2>
+                <div class="form-input">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+                <div class="form-input">
+                    <label for="matkhau">Mật khẩu</label>
+                    <input type="password" name="password" placeholder="Mật khẩu">
+                </div>
+                <div class="form-input pt-30">
+                    <input type="submit" name="submit" value="login">
+                </div>
+
+                <!-- Forget Password -->
+                <a href="#" class="forget">Forget Password</a>
+                <!-- Forget Password -->
+                <a href="" class="registration">Registration</a>
             </div>
-            <h2>Đăng nhập</h2>
-            <div class="form-input">
-                <label for="name">Email</label>
-                <input  type="email" name="email" placeholder="Email">
-            </div>
-            <div class="form-input">
-                <label for="name">Mật khẩu</label>
-                <input type="password" name="password" placeholder="Mật khẩu">
-            </div>
-            <div class="form-input pt-30">
-                <input type="submit" name="submit" value="login">
-            </div>
-            
-            <!-- Forget Password -->
-            <a href="#" class="forget">Forget Password</a>
-            <!-- Forget Password -->
-            <a href="" class="registration">Registration</a>
-        </div>
-    </form>
-    <!-- /end login form -->
-</main>
+        </form>
+        <!-- /end login form -->
+    </main>
 
 
     <script src="admin/js/vendor/modernizr-3.5.0.min.js"></script>
@@ -98,7 +102,7 @@
     <script src="admin/js/jquery.sticky.js"></script>
     <!-- Progress -->
     <script src="admin/js/jquery.barfiller.js"></script>
-    
+
     <!-- counter , waypoint,Hover Direction -->
     <script src="admin/js/jquery.counterup.min.js"></script>
     <script src="admin/js/waypoints.min.js"></script>
@@ -111,10 +115,11 @@
     <script src="admin/js/jquery.validate.min.js"></script>
     <script src="admin/js/mail-script.js"></script>
     <script src="admin/js/jquery.ajaxchimp.min.js"></script>
-    
-    <!-- Jquery Plugins, main Jquery -->	
+
+    <!-- Jquery Plugins, main Jquery -->
     <script src="admin/js/plugins.js"></script>
     <script src="admin/js/main.js"></script>
-    
-    </body>
+
+</body>
+
 </html>

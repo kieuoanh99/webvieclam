@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('CV');
+    return view('trangchu');
 });
+Route::get('/dangnhap', 'DangnhapController@index');

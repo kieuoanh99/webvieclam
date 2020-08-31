@@ -5862,7 +5862,7 @@
         
         .login-form {
             position: absolute;
-            top: 50%;
+            top: 70%;
             left: 50%;
             width: 480px;
             padding: 90px 45px 60px 45px;
@@ -6097,6 +6097,11 @@
             right: 29px;
         }
         /* line 78, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_category-page.scss */
+        
+        .header-area {
+            background: blue;
+            color: black;
+        }
         
         .category-listing .single-listing .select-Categories .container {
             display: block;

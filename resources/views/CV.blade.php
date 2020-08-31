@@ -18,7 +18,7 @@
 <div id="cv" class="instaFade">
 	<div class="mainDetails">
 		<div id="headshot" class="quickFade">
-			<img src="headshot.jpg" alt="Alan Smith" />
+			<input type="file" class="form-control-file" id="exampleFormControlFile1">
 		</div>
 		
 		<div id="name">
@@ -120,12 +120,13 @@
 			<div class="sectionContent">
 				<article>
 					<h2><input type="text" id="truong" name="truong" pattern="[A-Za-z]{3}" size="30" placeholder="Tên trường đào tạo"></h2>
-					<p class="subDetails"><select name="xeploai" id="xeploai">
+					<p class="subDetails"><input type="date" id="tghoc" name="tghoc" pattern="[A-Za-z]{3}" size="30"></p>
+					<p><input type="text" id="bangcap" name="bangcap" pattern="[A-Za-z]{3}" size="30" placeholder="Tên bằng cấp"></p>
+					<p><select name="xeploai" id="xeploai">
 									<option value="nam">Giỏi</option>
 									<option value="nu">Khá</option>
 									<option value="nam">Trung bình</option>
 								</select></p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
 				</article>
 			</div>
 			<div class="clear"></div>

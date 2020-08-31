@@ -47,42 +47,40 @@
     <form class="form-default" action="login-bg.mp4" method="POST">
         
         <div class="login-form">
-            <!-- logo-login -->
-            <div class="logo-login">
-                <a href="index.html"><img src="admin/img/logo/loder.png" alt=""></a>
-            </div>
-            <h2>Đăng ký ứng viên</h2>
-
+            
+            <div class="form-input" style="text-align:center;">
+                <label >ĐĂNG KÝ</label>
+                </div>
             <div class="form-input">
-                <label for="name">Họ Tên</label>
-                <input  type="text" name="name" placeholder="Nhập họ tên">
+                <label for="hoten">Họ Tên</label>
+                <input  type="text" name="hoten" placeholder="Nhập họ tên">
             </div>
             <div class="form-input">
-                <label for="name">Số điện thoại</label>
-                <input  type="text" name="name" placeholder="Nhập số điện thoại">
+                <label for="sdt">Số điện thoại</label>
+                <input  type="text" name="sdt" placeholder="Nhập số điện thoại">
             </div>
             <div class="form-input">
-                <label for="name">Tên công ty</label>
-                <input  type="text" name="name" placeholder="Nhập họ tên">
+                <label for="tencongty">Tên công ty</label>
+                <input  type="text" name="tencongty" placeholder="Nhập họ tên">
             </div>
             <div class="form-input">
-                <label for="name">Địa chỉ</label>
-                <input  type="text" name="name" placeholder="Nhập họ tên">
+                <label for="diachi">Địa chỉ</label>
+                <input  type="text" name="diachi" placeholder="Nhập họ tên">
             </div>
             <div class="form-input">
-                <label for="name">Email</label>
+                <label for="email">Email</label>
                 <input type="email" name="email" placeholder="Nhập email">
             </div>
             <div class="form-input">
-                <label for="name">Mật khẩu</label>
-                <input type="password" name="password" placeholder="Nhập mật khẩu">
+                <label for="matkhau">Mật khẩu</label>
+                <input type="password" name="matkhau" placeholder="Nhập mật khẩu">
             </div>
             <div class="form-input">
-                <label for="name">Xác nhận mật khẩu</label>
-                <input type="password" name="password" placeholder="Nhập lại mật khẩu">
+                <label for="xacnhan">Xác nhận mật khẩu</label>
+                <input type="password" name="xacnhan" placeholder="Nhập lại mật khẩu">
             </div>
             <div class="form-input pt-30">
-                <input type="submit" name="submit" value="Registration">
+                <input type="submit" name="submit" value="Đăng ký">
             </div>
             <!-- Forget Password -->
             <!-- <a href="login.html" class="registration">login</a> -->
