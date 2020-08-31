@@ -95,9 +95,9 @@
                                     <div class="col-12 col-md-3">
                                         <select name="select" id="select" class="form-control">
                                             <option value="0">Vui lòng chọn hình thức</option>
-                                            <option value="1">bán thời gian</option>
-                                            <option value="2">toàn thời gian</option>
-                                            <option value="3">làm theo giờ</option>
+                                            <option value="1">Bán thời gian</option>
+                                            <option value="2">Toàn thời gian</option>
+                                            <option value="3">Làm theo giờ</option>
                                         </select>
                                     </div>
                                 </div>
@@ -109,8 +109,8 @@
                                     <div class="col-12 col-md-3">
                                         <select name="select" id="select" class="form-control">
                                             <option value="0">Vui lòng chọn ngành nghề</option>
-                                            <option value="1">nhân viên bán hàng</option>
-                                            <option value="2">nhân viên IT</option>
+                                            <option value="1">Nhân viên bán hàng</option>
+                                            <option value="2">Nhân viên IT</option>
                                             <option value="3">Nhân viên kinh doanh</option>
                                         </select>
                                     </div>

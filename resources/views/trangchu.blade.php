@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>dfv.com</title>
+    <title>vietnamworks.com</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -96,7 +96,7 @@
                         <div class="col-xl-8 col-lg-9">
                             <!-- Hero Caption -->
                             <div class="hero__caption">
-                                <h1>Tìm kiếm công việc mơ ước.</h1>
+                                <h1>Tìm kiếm công việc mơ ước!</h1>
                             </div>
                         </div>
                         <div class="col-xl-11 col-lg-12">
@@ -122,8 +122,8 @@
                                             <option value="">Ngành nghề</option>
                                             <option value="">Kiến trúc sư</option>
                                             <option value="">Lập trình viên</option>
-                                            <option value="">Catagories Three</option>
-                                            <option value="">Catagories Four</option>
+                                            <!-- <option value="">Catagories Three</option>
+                                            <option value="">Catagories Four</option> -->
                                         </select>
                                     </div>
                                 </div>
@@ -151,33 +151,7 @@
             </div>
         </div>
 
-        <!--? Our Services Start -->
-        <section class="our-services  section-padding40">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-8 col-lg-8">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle text-center mb-80">
-                            <h2>Việc làm theo khu vực</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </secsion>    
-        <!-- About Area End-->
-        <!--? Top Jobs Start -->
-        <section class="top-jobs  section-padding40 fix">
-            <div class="container-fluid p-0">
-                <div class="row justify-content-center">
-                    <div class="col-xl-4 col-lg-7 col-md-9">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle text-center mb-80">
-                            <h2>Nhà tuyển dụng hàng đầu</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <section>    
+        
     </main>
     <footer>
         <div class="footer-wrappper pl-100 pr-100 section-bg" data-background="admin/img/gallery/footer-bg.png">
@@ -190,16 +164,16 @@
                                 <div class="single-footer-caption mb-30">
                                     <!-- logo -->
                                     <div class="footer-logo mb-25">
-                                        <a href="index.html"><img src="admin/img/logo/logo2_footer.png" alt=""></a>
+                                        <a href="index.html"><img src="admin/img/vnw_logo.png" style="width:250px;height:100px; alt="></a>
                                     </div>
                                     <div class="col-sm-9">
-                                        <div class="footer-pera">
+                                        <div class="footer-tittle">
                                             <li>Địa chỉ</li>
                                             <p>29 Quang Trung P.An Khánh Q.Ninh Kiều TP.Cần Thơ</p>
                                             <li>Điện thoại</li>
                                             <p>0222686868</p>
                                             <li>Email</li>
-                                            <p>GOLDWAY@gmail.com</p>
+                                            <p>vietnamworks@gmail.com</p>
                                         </div>
                                     </div>
                                 </div>
@@ -213,7 +187,8 @@
                                     <div class="footer-social">
                                         <a href="#"><i class="fab fa-twitter"></i></a>
                                         <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="icon-envelope"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                        <!-- <a href="#"><i class="icon-envelope"></i></a> -->
                                     </div>
                                 </div>
                             </div>
